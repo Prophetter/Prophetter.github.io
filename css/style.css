@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --dark-blue: #2a485c;
+    --blue: #51758c;
+    --cyan: #35b38e;
+    --orange: #f28b20;
+    --dark-orange: #cc6601;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+/*   HEADER   */
+
+header {
+    display: block;
+    height: 8rem;
+}
+
+.header-wrapper {
+    display: flex;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    justify-content: start;
+}
+
+.contact {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.email {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.contact-img, .email-img {
+    padding-right: 1rem;
+}
+
+.contact h2,.email h2 {
+    color: #51758c;
+    letter-spacing: 1px;
+}
+
+.contact span,.email span {
+    color: gray;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media img {
+    padding: 0.5rem;
+}
+
+/*   NAVBAR   */
+
+nav {
+    display: block;
+    height: 3rem;
+    background: #f28b20;
+    text-transform: uppercase;
+}
+
+.nav-wrapper {
+    display: flex;
+    height: 100%;
+    margin: auto;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-wrapper > ul > li {
+    display: flex;
+    position: relative;
+}
+
+.nav-wrapper ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 75%;
+    font-weight: 700;
+}
+
+.nav-wrapper ul li:hover a {
+    background: #51758c;
+}
+
+.nav-wrapper ul ul {
+    position: absolute;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+}
+
+.nav-wrapper ul ul li {
+    background: #2a485c;
+}
+
+.nav-wrapper ul li:hover > ul {
+    display: block;
+}
+
+.nav-wrapper ul ul li:hover a{
+    background: #51758c;
+}
+
+/*   SEARCHBAR   */
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-btn:hover, .search-btn:focus {
+    background: #f28b20;
+}
+
+/*   SLIDER   */
+
+.swiper {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.swiper-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.swiper .swiper-button-prev {
+    color: white;
+}
+
+.swiper .swiper-button-next {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 25%;
+}
+
+.content h1 {
+    font-size: 22px;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.content-text p {
+    background: rgba(255, 255, 255, 0.7);
+    color: gray;
+    padding: 1rem;
+    margin-top: 10px;
+}
+
+.more-btn {
+    text-transform: uppercase;
+    color: white;
+    background: #35b38e;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+/*   HELP   */
+
+.help {
+    display: block;
+    height: auto;
+}
+
+.help-title {
+    display: block;
+    height: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.help-title h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #51758c;
+}
+
+.help-wrapper {
+    display: flex;
+    height: 15rem;
+    color: #51758c;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.specifier, .builder, .manufacturer {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+
+.specifier-arrow, .builder-arrow, .manufacturer-arrow {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

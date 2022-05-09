@@ -1,0 +1,162 @@
+@media only screen and (min-width: 1460px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 768px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    .help-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        color: #51758c;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10;
+        top: 15%;
+        left: 10%;
+    }
+
+    .content-text p {
+        background: rgba(255, 255, 255, 0.7);
+        color: gray;
+        padding: 1rem;
+        margin-top: 10px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .contact img, .email img {
+        padding: 0;
+    }
+
+    .contact-details, .email-details {
+        display: none;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        height: 4rem;
+        background: #f28b20;
+        text-transform: uppercase;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+
+    .nav-wrapper-smol {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .social-media-smol {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .social-media-smol img {
+        padding: 0.5rem;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 10;
+        top: 10%;
+        left: 0;
+    }
+    
+    .content h1 {
+        font-size: 22px;
+        font-family: "Roboto Slab", serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        padding-bottom: 3rem;
+    }
+    
+    .content-text p {
+        background: rgba(255, 255, 255, 0.7);
+        color: gray;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 10px;
+        width: 320px;
+    }
+    
+    .more-btn {
+        position: absolute;
+        left: 25%;
+        text-transform: uppercase;
+        color: white;
+        background: #35b38e;
+        border: none;
+        cursor: pointer;
+        width: 160px;
+        height: 60px;
+        margin-top: 15px;
+    }
+
+    .swiper .swiper-button-prev, .swiper .swiper-button-next {
+        position: absolute;
+        top: 87%;
+        color: white;
+        align-items: baseline;
+    }
+
+    /*   BURGER   */
+
+    
+}
