@@ -109,13 +109,13 @@
         display: none;
     }
 
-    .nav-wrapper-smol {
+    .nav-wrapper-small {
         display: flex;
         height: 100%;
         align-items: center;
     }
 
-    .social-media-smol {
+    .social-media-small {
         display: flex;
         justify-content: flex-start;
     }

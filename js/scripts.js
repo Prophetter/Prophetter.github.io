@@ -1,11 +1,4 @@
-const swiper = new Swiper('.swiper', {
-
-    direction: 'horizontal',
-    loop: true,
-
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-  
+function toggleButton() {
+  document.getElementsByClassName("search-icon").style="'background-image: url(./img/mobile_menu_close)'"
+  document.getElementsByClassName("searchbar-hidden").class="searchbar"
+}

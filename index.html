@@ -11,6 +11,7 @@
     <title>Droptica Test</title>
     <style>@import url("./css/style.css");</style>
     <style>@import url("./css/breakpoints.css");</style>
+    <script src="./js/scripts.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
@@ -45,7 +46,7 @@
     </header>
     <nav class="col-12">
         <div class="nav-wrapper col-6 col-l-8 col-m-12">
-            <ul class="col-10">
+            <ul class="col-12">
                 <li><a href="#">home</a></li>
                 <li><a href="#">our solutions</a></li>
                 <li><a href="#">case studies</a></li>
@@ -59,17 +60,14 @@
                 <li><a href="#">news</a></li>
                 <li><a href="#">contact</a></li>
             </ul>
-            <div class="searchbar col-2">
-                <img src="./img/search_icon.png" alt="">
-            </div>
+            <button class="toggle-btn" type="button" onclick="toggleButton()">
+                <span class="search-icon" style="background: url(../img/search_icon.png)  no-repeat center;"></span>
+            </button>
         </div>
-        <div class="nav-wrapper-smol col-s-12">
-            <div class="social-media-smol col-s-8">
+        <div class="nav-wrapper-small col-s-12">
+            <div class="social-media-small col-s-8">
                 <img src="./img/linkedin_icon.png" alt="">
                 <img src="./img/twitter_icon.png" alt="">
-            </div>
-            <div class="searchbar col-s-2">
-                <img src="./img/search_icon.png" alt="">
             </div>
             <!--
             <div class="burger-btn col-s-2"></div>
@@ -90,6 +88,12 @@
         </div>
         -->
     </nav>
+    <div class="searchbar-hidden col-12">
+        <div class="searchbar-wrapper col-6">
+            <input class="search-input" type="text" placeholder="Search">
+            <span class="search-icon"></span>
+        </div>
+    </div>
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -163,6 +167,6 @@
     </div>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
 </html>
