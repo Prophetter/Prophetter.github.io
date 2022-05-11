@@ -13,6 +13,7 @@
     <style>@import url("./css/breakpoints.css");</style>
     <script src="./js/scripts.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./hamburgers/dist/hamburgers.css"/>
 </head>
 <body>
     <header class="col-12 col-m-12 col-s-12">
@@ -65,28 +66,20 @@
             </button>
         </div>
         <div class="nav-wrapper-small col-s-12">
-            <div class="social-media-small col-s-8">
+            <div class="social-media-small col-s-6">
                 <img src="./img/linkedin_icon.png" alt="">
                 <img src="./img/twitter_icon.png" alt="">
             </div>
-            <!--
-            <div class="burger-btn col-s-2"></div>
-            <ul class="burger-nav">
-                <li><a href="#">home</a></li>
-                <li><a href="#">our solutions</a></li>
-                <li><a href="#">case studies</a></li>
-                <li><a href="#">about</a>
-                    <ul>
-                        <li><a href="#">our company</a></li>
-                        <li><a href="#">our expertise</a></li>
-                        <li><a href="#">newsletter sign-up</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">news</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
+            <div class="icons col-s-6">
+                <button class="search-btn" type="button" onclick="searchToggle()"></button>
+                <button class="hamburger hamburger--boring" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+            
         </div>
-        -->
     </nav>
     <div class="searchbar-hidden col-12">
         <div class="searchbar-wrapper col-6">

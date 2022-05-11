@@ -188,7 +188,7 @@ nav {
 
 .search-icon {
     display: flex;
-  /*  background: url(../img/search_icon.png)  no-repeat center;*/
+    background: url(../img/search_icon.png)  no-repeat center;
     width: 3rem;
     height: 100%;
     cursor: pointer;
@@ -196,7 +196,7 @@ nav {
 
 .close-icon {
     display: flex;
-   /* background: url(../img/mobile_menu_close.png)  no-repeat center;*/
+    background: url(../img/mobile_menu_close.png)  no-repeat center;
     width: 3rem;
     height: 100%;
     cursor: pointer;
