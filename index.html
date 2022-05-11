@@ -61,8 +61,8 @@
                 <li><a href="#">news</a></li>
                 <li><a href="#">contact</a></li>
             </ul>
-            <button class="toggle-btn" type="button" onclick="toggleButton()">
-                <span class="search-icon" style="background: url(../img/search_icon.png)  no-repeat center;"></span>
+            <button class="toggle-btn" type="button" onclick="searchToggle(), iconSwap()">
+                <span id="searchIcon" class="search-icon"></span>
             </button>
         </div>
         <div class="nav-wrapper-small col-s-12">
@@ -71,7 +71,9 @@
                 <img src="./img/twitter_icon.png" alt="">
             </div>
             <div class="icons col-s-6">
-                <button class="search-btn" type="button" onclick="searchToggle()"></button>
+                <button class="search-btn" type="button" onclick="searchToggle(), iconSwap()">
+                    <span id="searchIconMini" class="search-icon"></span>
+                </button>
                 <button class="hamburger hamburger--boring" type="button">
                     <span class="hamburger-box">
                     <span class="hamburger-inner"></span>
@@ -81,8 +83,8 @@
             
         </div>
     </nav>
-    <div class="searchbar-hidden col-12">
-        <div class="searchbar-wrapper col-6">
+    <div id="search" class="searchbar col-12">
+        <div class="searchbar-wrapper col-6 col-l-8 col-m-12 col-s-12">
             <input class="search-input" type="text" placeholder="Search">
             <span class="search-icon"></span>
         </div>

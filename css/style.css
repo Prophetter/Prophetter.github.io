@@ -155,13 +155,9 @@ nav {
 /*   SEARCHBAR   */
 
 .searchbar {
-    display: block;
+    display: none;
     height: 3rem;
     background-color: #cc6601;
-}
-
-.searchbar-hidden {
-    display: none;
 }
 
 .searchbar-wrapper {

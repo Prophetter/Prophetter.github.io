@@ -139,6 +139,29 @@
         background: url("../img/search_icon.png") center no-repeat;
     }
 
+    .toggle-btn {
+        height: 100%;
+        outline: none;
+        border: none;
+        background: none;
+    }
+
+    .search-icon {
+        display: flex;
+        background: url(../img/search_icon.png)  no-repeat center;
+        width: 3rem;
+        height: 100%;
+        cursor: pointer;
+    }
+    
+    .close-icon {
+        display: flex;
+        background: url(../img/mobile_menu_close.png)  no-repeat center;
+        width: 3rem;
+        height: 100%;
+        cursor: pointer;
+    }
+
     .hamburger {
         align-items: center;
         justify-content: center;
