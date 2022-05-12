@@ -251,10 +251,11 @@
         text-decoration: none;
         color: white;
         text-transform: uppercase;
+        background-color: #51758c;
     }
     
     .sidebar a:hover {
-        background-color: #51758c;
+        background-color: #2a485c;
     }
     
     .dropdown-btn {
@@ -291,6 +292,10 @@
         padding: 1rem;
         background-color: #2a485c;
         text-transform: uppercase;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #51758c;
     }
 
 }
