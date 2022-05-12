@@ -36,3 +36,21 @@ function sidebarToggle() {
       side.classList.toggle("sidebar-toggle");
       main.classList.toggle("main-translate");
 }
+
+function sidebarSwitch() {
+  var drop = document.getElementById("dropmenu")
+  if (drop.style.display === "block") {
+      drop.style.display = "none";
+  } else {
+      drop.style.display = "block";
+  }
+}
+
+function plusMinus() {
+  var plusminus = document.getElementById("side-icons");
+      if (plusminus.className === "fa-solid fa-minus") {
+          plusminus.className = "fa-solid fa-plus";
+      } else {
+          plusminus.className = "fa-solid fa-minus";
+      }
+}

@@ -82,22 +82,23 @@
                         </span>
                     </button>
                 </div>
+                <div class="sidebar-container">
                 <div class="sidebar">
-                    <ul class="col-12">
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">our solutions</a></li>
-                        <li><a href="#">case studies</a></li>
-                        <li><a href="#">about</a>
-                            <ul>
-                                <li><a href="#">our company</a></li>
-                                <li><a href="#">our expertise</a></li>
-                                <li><a href="#">newsletter sign-up</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">news</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
+                    <a href="#">home</a>
+                    <a href="#">our solutions</a>
+                    <a href="#">case studies</a>
+                    <button class="dropdown-btn" type="button" onclick="sidebarSwitch(), plusMinus()">about
+                        <i id="side-icons" class="fa-solid fa-plus"></i>
+                    </button>
+                        <div id="dropmenu" class="dropdown-menu">
+                            <a href="#">our company</a>
+                            <a href="#">our expertise</a>
+                            <a href="#">newsletter sign-up</a>
+                        </div>
+                    <a href="#">news</a>
+                    <a href="#">contact</a>
                 </div>
+            </div>
             </div>
 
 
