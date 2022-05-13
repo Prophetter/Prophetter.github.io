@@ -236,11 +236,12 @@
     .sidebar {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 3rem;
+        width: 80%;
+        height: 100%;
         position: absolute;
         top: 0;
         left: 100%;
+        background-color: #51758c;
     }
     
     .sidebar a {
