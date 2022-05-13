@@ -37,6 +37,15 @@ function sidebarToggle() {
       main.classList.toggle("main-translate");
 }
 
+function sideHide() {
+  var x = document.getElementById("side-hide");
+  if (x.style.display === "block") {
+    x.style.display = "none"; 
+  } else {
+    x.style.display = "block"
+  }
+}
+
 function sidebarSwitch() {
   var drop = document.getElementById("dropmenu")
   if (drop.style.display === "block") {
