@@ -226,8 +226,15 @@
     /*   BURGER   */
 
     .main-translate {
-        transform: translate(-80%);
-    }
+        animation-name: translate;
+        animation-duration: 0.4s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes translate {
+        from {transform: translate(0);}
+        to {transform: translate(-80%);;}
+      }
 
     .sidebar-container {
         display: none;
