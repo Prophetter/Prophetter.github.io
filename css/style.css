@@ -14,18 +14,53 @@
     --dark-orange: #cc6601;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 .center-flex {
     display: flex;
@@ -71,12 +106,12 @@ header {
     padding-right: 1rem;
 }
 
-.contact h2,.email h2 {
+.contact h2, .email h2 {
     color: #51758c;
     letter-spacing: 1px;
 }
 
-.contact span,.email span {
+.contact span, .email span {
     color: gray;
 }
 
@@ -144,7 +179,7 @@ nav {
     display: block;
 }
 
-.nav-wrapper ul ul li:hover a{
+.nav-wrapper ul ul li:hover a {
     background: #51758c;
 }
 
@@ -184,7 +219,7 @@ nav {
 
 .search-icon {
     display: flex;
-    background: url(../img/search_icon.png)  no-repeat center;
+    background: url(../img/search_icon.png) no-repeat center;
     width: 3rem;
     height: 100%;
     cursor: pointer;
@@ -192,7 +227,7 @@ nav {
 
 .close-icon {
     display: flex;
-    background: url(../img/mobile_menu_close.png)  no-repeat center;
+    background: url(../img/mobile_menu_close.png) no-repeat center;
     width: 3rem;
     height: 100%;
     cursor: pointer;
@@ -298,4 +333,9 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.main {
+    transition: 500ms all ease-in;
+    transform: translate(0, 0);
 }
