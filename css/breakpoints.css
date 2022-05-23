@@ -343,7 +343,7 @@
         flex-direction: column;
         width: 80%;
         height: 100%;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 100%;
         z-index: 15;

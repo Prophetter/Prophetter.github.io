@@ -172,6 +172,19 @@ nav {
     background: #51758c;
 }
 
+.nav-wrapper ul li:hover::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 0.5rem 0.5rem;
+    border-color: transparent transparent #000 transparent;
+}
+
 .nav-wrapper ul ul {
     position: absolute;
     min-width: 160px;
@@ -187,6 +200,10 @@ nav {
 
 .nav-wrapper ul ul li:hover a {
     background: #2a485c;
+}
+
+.nav-wrapper ul ul li:hover::before {
+    display: none;
 }
 
 .nav-wrapper-small, .social-media-small {
