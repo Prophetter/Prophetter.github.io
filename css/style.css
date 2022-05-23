@@ -129,6 +129,8 @@ header {
 nav {
     display: block;
     height: 3rem;
+    position: relative;
+    z-index: 10;
     background: #f28b20;
     text-transform: uppercase;
 }
@@ -136,26 +138,34 @@ nav {
 .nav-wrapper {
     display: flex;
     height: 100%;
+    position: inherit;
     margin: auto;
 }
 
 .nav-wrapper ul {
     display: flex;
+    height: 4rem;
+    padding: 0;
+    margin: 0;
+    margin-top: -0.5rem;
     list-style: none;
 }
 
-.nav-wrapper > ul > li {
-    display: flex;
+.nav-wrapper ul li {
     position: relative;
+    height: 100%;
 }
 
 .nav-wrapper ul li a {
-    display: block;
-    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem 1rem;
     color: white;
-    padding: 1rem;
-    font-size: 75%;
-    font-weight: 700;
+    font-size: 90%;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav-wrapper ul li:hover a {
@@ -171,16 +181,12 @@ nav {
     z-index: 10;
 }
 
-.nav-wrapper ul ul li {
-    background: #2a485c;
-}
-
 .nav-wrapper ul li:hover > ul {
     display: block;
 }
 
 .nav-wrapper ul ul li:hover a {
-    background: #51758c;
+    background: #2a485c;
 }
 
 .nav-wrapper-small, .social-media-small {

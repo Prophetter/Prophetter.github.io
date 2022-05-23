@@ -329,16 +329,7 @@
     }
 
     /*   BURGER   */
-    /*.main-translate {*/
-    /*    animation-name: translate;*/
-    /*    animation-duration: 0.4s;*/
-    /*    animation-fill-mode: forwards;*/
-    /*  }*/
-    /*  */
-    /*  @keyframes translate {*/
-    /*    from {transform: translate(0);}*/
-    /*    to {transform: translate(-80%);;}*/
-    /*  }*/
+    
     .main.sidebar-open {
         transform: translate(-80%, 0);
     }
@@ -355,6 +346,7 @@
         position: absolute;
         top: 0;
         left: 100%;
+        z-index: 15;
         background-color: #51758c;
         transition: 500ms ease-in;
     }
