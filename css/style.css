@@ -73,6 +73,10 @@
     justify-content: center;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /*   HEADER   */
 
 header {
@@ -83,6 +87,7 @@ header {
 .header-wrapper {
     display: flex;
     height: 100%;
+    padding: 0 5px;
     margin: auto;
     align-items: center;
 }
@@ -103,7 +108,7 @@ header {
 }
 
 .contact-img, .email-img {
-    padding-right: 1rem;
+    padding-right: 0.8rem;
 }
 
 .contact h2, .email h2 {
