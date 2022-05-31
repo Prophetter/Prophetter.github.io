@@ -191,7 +191,7 @@
     }
 
     .contact img, .email img {
-        padding: 1rem;
+        padding: 0.6rem;
     }
 
     .contact-details, .email-details {
@@ -225,7 +225,7 @@
     }
 
     .social-media-small img {
-        padding: 0.5rem;
+        padding: 0.4rem;
     }
 
     .icons {
