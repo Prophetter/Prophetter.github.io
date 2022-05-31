@@ -131,6 +131,10 @@
         margin-top: 10px;
         width: 400px;
     }
+
+    .help-wrapper {
+        padding-top: 2rem;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -316,7 +320,7 @@
 
     .swiper .swiper-button-prev, .swiper .swiper-button-next {
         position: absolute;
-        top: 83%;
+        top: 84%;
         color: white;
         align-items: baseline;
     }
@@ -325,6 +329,7 @@
         display: flex;
         flex-direction: column;
         height: auto;
+        padding-top: 2rem;
     }
 
     /*   BURGER   */
