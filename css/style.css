@@ -369,21 +369,6 @@ nav {
     padding-left: 1rem;
 }
 
-/*.specifier-arrow h2::after {
-    content: url(../img/arrow_specifier_0.png);
-    padding-left: 1rem;
-}
-
-.builder-arrow h2::after {
-    content: url(../img/arrow_builder_0.png);
-    padding-left: 1rem;
-}
-
-.manufacturer-arrow h2::after {
-    content: url(../img/arrow_manufacturer_0.png);
-    padding-left: 1.2rem;
-}*/
-
 .main {
     transition: 500ms all ease-in;
     transform: translate(0, 0);
