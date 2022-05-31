@@ -231,6 +231,11 @@ nav {
     background-color: #cc6601;
     width: 100%;
     height: 100%;
+    padding: 1rem;
+}
+
+::placeholder {
+    color: white;
 }
 
 .toggle-btn {
@@ -353,10 +358,30 @@ nav {
 
 .specifier-arrow, .builder-arrow, .manufacturer-arrow {
     display: flex;
+    height: 4rem;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
+
+.specifier-arrow span, .builder-arrow span, .manufacturer-arrow span {
+    padding-left: 1rem;
+}
+
+/*.specifier-arrow h2::after {
+    content: url(../img/arrow_specifier_0.png);
+    padding-left: 1rem;
+}
+
+.builder-arrow h2::after {
+    content: url(../img/arrow_builder_0.png);
+    padding-left: 1rem;
+}
+
+.manufacturer-arrow h2::after {
+    content: url(../img/arrow_manufacturer_0.png);
+    padding-left: 1.2rem;
+}*/
 
 .main {
     transition: 500ms all ease-in;
